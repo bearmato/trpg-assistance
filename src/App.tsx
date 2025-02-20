@@ -3,15 +3,14 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Box } from "@chakra-ui/react";
 import Navbar from "./components/navBar";
-import HomePage from "./pages/Home";
-import RulesPage from "./pages/Rules";
-import CharacterCreationPage from "./pages/CharacterCreation";
-import AIGMPage from "./pages/AIGM";
+import HomePage from "./pages/HomePage";
+import RulesPage from "./pages/RulesPage";
+import CharacterCreationPage from "./pages/CharacterCreationPage";
+import AIGMPage from "./pages/AIGMPage";
 
 export default function App() {
   return (
     <Router>
-      {/* 让所有页面都有导航栏 */}
       <Navbar />
       <Box>
         <Routes>
