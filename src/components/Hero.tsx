@@ -1,11 +1,11 @@
 import { Box, Heading, Text, Button } from "@chakra-ui/react";
-import backGroundImage from "../assets/background.jpeg";
+import bgImage from "../assets/background.jpeg";
+
 export default function Hero() {
   return (
     <Box
-      bgImage={backGroundImage}
+      bgImage={`url(${bgImage})`}
       bgSize="cover"
-      position="center"
       height="80vh"
       display="flex"
       flexDirection="column"
@@ -13,13 +13,13 @@ export default function Hero() {
       justifyContent="center"
       textAlign="center"
     >
-      <Heading fontSize="3xl" color="black">
+      <Heading fontSize="3xl" color="White">
         Everything For Your Adventures
       </Heading>
-      <Text fontSize="xl" color="gray.700">
-        Create and Play Free Unlimited Characters
+      <Text fontSize="xl" color="pink">
+        Create Free Unlimited Characters
       </Text>
-      <Button mt={6} colorScheme="pink" size="lg">
+      <Button mt={6} bgColor="pink.500" size="lg">
         Create a Character Now
       </Button>
     </Box>

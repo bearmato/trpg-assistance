@@ -8,7 +8,7 @@ export default function Navbar() {
           TRPG - Assistance
         </Text>
         <Spacer />
-        <Button colorScheme="pink">登录</Button>
+        <Button bgColor="pink.500">登录</Button>
       </Flex>
     </Box>
   );
