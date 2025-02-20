@@ -1,15 +1,15 @@
 //import React from 'react'
 
-import { Button, HStack } from "@chakra-ui/react";
+import { Box } from "@chakra-ui/react";
+import Navbar from "./components/navBar";
+import Hero from "./components/Hero";
 
 const App = () => {
   return (
-    <>
-      <HStack>
-        <Button>Click me</Button>
-        <Button>Click me</Button>
-      </HStack>
-    </>
+    <Box>
+      <Navbar />
+      <Hero />
+    </Box>
   );
 };
 
