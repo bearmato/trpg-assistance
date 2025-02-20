@@ -4,7 +4,7 @@ export default function AIGM() {
   return (
     <Box p={8}>
       <Heading>AI GM</Heading>
-      <Text>使用 AI GM 生成剧情和任务，提升游戏体验！</Text>
+      <Text>使用 AI GM 生成剧情和任务。</Text>
     </Box>
   );
 }

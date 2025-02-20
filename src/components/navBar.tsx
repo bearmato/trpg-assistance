@@ -1,9 +1,10 @@
 import { Box, Flex, Text, Button, Spacer, Link } from "@chakra-ui/react";
 import { Link as RouterLink } from "react-router-dom";
+import { ColorModeButton } from "@/components/ui/color-mode";
 
 export default function Navbar() {
   return (
-    <Box bg="white" px={6} py={4} shadow="md">
+    <Box px={6} py={4} shadow="md">
       <Flex align="center">
         <Link as={RouterLink} _hover={{ textDecoration: "none" }}>
           <RouterLink to="/">
@@ -31,6 +32,9 @@ export default function Navbar() {
         </Flex>
 
         <Spacer />
+
+        <ColorModeButton mr={4} />
+
         <Button bgColor="pink.500">登录</Button>
       </Flex>
     </Box>
