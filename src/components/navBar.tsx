@@ -35,7 +35,7 @@ export default function Navbar() {
 
         <ColorModeButton mr={4} />
 
-        <Button bgColor="pink.500">登录</Button>
+        <Button bgColor="pink.500">LOG IN</Button>
       </Flex>
     </Box>
   );
